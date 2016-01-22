@@ -1,0 +1,13 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<fault>
+<faultcode>Server</faultcode>
+<faultstring>Could not route request</faultstring>
+<faultactor>http://services.sapo.pt</faultactor>
+<detail>
+<tns:exceptionInfo xmlns:tns="http://services.sapo.pt/exceptions">
+<tns:code>2500</tns:code>
+<tns:id>25017ed7-434d-4ba9-9ee7-f36d73202865</tns:id>
+<tns:datetime>2016-01-22T02:41:59.9112275Z</tns:datetime>
+</tns:exceptionInfo>
+</detail>
+</fault>
