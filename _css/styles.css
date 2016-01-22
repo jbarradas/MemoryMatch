@@ -1,32 +1,73 @@
-body {margin: 0;}
-.ctx {margin: 0 auto;}
-.grid {width: 570px; margin: 0 auto;margin-top: 100px;}
-.grid .col-1-6 {
-	height: 95px;
-	width: 95px;
-	background-image: url("https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg");
-	display: inline-block;
+body {
+    margin: 0;
 }
 
-.grid .col-1-6:hover {
-	-ms-transform: rotate(17deg); /* IE 9 */
-    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
-    transform: rotate(17deg);
+.ctx {
+    margin: 0 auto;
+}
+
+.ctx {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.ctx div {
+    height: 95px;
+    width: 95px;
+    margin-right: 5px;
+    background: url("https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg") no-repeat;
+    display: inline-block;
+}
+
+.ctx div:hover {
+    outline: 5px solid red;
 }
 
 
-/* GRID */ 
+/* GRID */
 
 [class*='col-'] {
-  float: left;
+    float: left;
 }
 
 .col-1-6 {
-  width: 16.66%;
+    width: 16.66%;
 }
 
 .grid:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
+/* IMAGES */
+/*
+.A {
+  background: url("../_badges/100_normal.png") no-repeat !important;
+}
+.B {
+  background: url("../_badges/101_normal.png") no-repeat !important;
+}
+.C {
+  background: url("../_badges/102_normal.png") no-repeat !important;
+}
+.D {
+  background: url("../_badges/103_normal.png") no-repeat !important;
+}
+.E {
+  background: url("../_badges/104_normal.png") no-repeat !important;
+}
+.F {
+  background: url("../_badges/105_normal.png") no-repeat !important;
+}
+.G {
+  background: url("../_badges/106_normal.png") no-repeat !important;
+}
+.H {
+  background: url("../_badges/107_normal.png") no-repeat !important;
+}
+.I {
+  background: url("../_badges/108_normal.png") no-repeat !important;
+}
+*/
