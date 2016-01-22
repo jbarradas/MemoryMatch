@@ -43,16 +43,49 @@ oReq.open("GET", "https://services.sapo.pt/Codebits/listbadges");
 oReq.send();
 */
 
-var x = new XMLHttpRequest();
-x.open("POST", "https://services.sapo.pt/exceptions", true);
-x.onreadystatechange = function () {
-  if (x.readyState == 4 && x.status == 200)
-  {
-    var doc = x.responseXML;
-    // …
-    console.log(doc);
-  }
-};
-x.send(null);
+function click(id) {
+		var el = document.getElementById(id);
+		el.style.backgroundImage = "url('https://codebits.eu/imgs/b/2014/37_normal.png')";
 
+		array
+
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+var arr = [2, 11, 37, 42];
+shuffle(arr);
+console.log(arr);
+
+
+
+function master() {
+	arrayImg = [path, path, path];
+	arrayPos = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18];
+
+	arrayImg.forEach(function(x) {
+		for (var i=1; i<=2; i++) {
+			id = shuffle(arrayPos).pop();
+			x = document.getElementById(id).style.display="none";
+		 }
+		 )}
+	}
+}
 

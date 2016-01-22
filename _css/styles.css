@@ -1,14 +1,14 @@
 body {margin: 0;}
 .ctx {margin: 0 auto;}
 .grid {width: 570px; margin: 0 auto;margin-top: 100px;}
-.grid div {
+.grid .col-1-6 {
 	height: 95px;
 	width: 95px;
 	background-image: url("https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg");
 	display: inline-block;
 }
 
-.grid div:hover {
+.grid .col-1-6:hover {
 	-ms-transform: rotate(17deg); /* IE 9 */
     -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
     transform: rotate(17deg);
