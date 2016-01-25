@@ -1,15 +1,44 @@
 body {
-    margin: 0;
+    margin: 0; padding: 15px;
+    font-family: Helvetica, sans-serif;
 }
 
-.ctx {
-    margin: 0 auto;
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+aside {
+	float: left;
+	width: 200px;
+	display: inline-block;
+}
+
+aside > * {
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	font-size: 30px;
+}
+
+#hide {
+	display: none;
+}
+
+#timer {
+	color: red;
+	display: block;
+	font-size: 45px;
+	text-align: center;
+	background-color: #ccc;
+	margin: 14px;
 }
 
 .ctx {
     width: 600px;
-    margin: 0 auto;
-    margin-top: 100px;
+    padding-top: 30px;
+    display: inline-block;
 }
 
 .ctx div {
@@ -17,57 +46,28 @@ body {
     width: 95px;
     margin-right: 5px;
     background: url("https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg") no-repeat;
+    background-size: 95px !important;
     display: inline-block;
 }
 
-.ctx div:hover {
-    outline: 5px solid red;
+.ctx div:hover {    
+    border: 5px solid red;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
-
-/* GRID */
-
-[class*='col-'] {
-    float: left;
+footer {
+	margin-top: 25px;
+	font-size: 25px;
+	text-decoration: none;
 }
 
-.col-1-6 {
-    width: 16.66%;
+footer a {
+	text-decoration: none;
+	color: #000;
+	font-size: 35px;
 }
 
-.grid:after {
-    content: "";
-    display: table;
-    clear: both;
+footer span {
+	color: #50C5FF;
 }
-
-/* IMAGES */
-/*
-.A {
-  background: url("../_badges/100_normal.png") no-repeat !important;
-}
-.B {
-  background: url("../_badges/101_normal.png") no-repeat !important;
-}
-.C {
-  background: url("../_badges/102_normal.png") no-repeat !important;
-}
-.D {
-  background: url("../_badges/103_normal.png") no-repeat !important;
-}
-.E {
-  background: url("../_badges/104_normal.png") no-repeat !important;
-}
-.F {
-  background: url("../_badges/105_normal.png") no-repeat !important;
-}
-.G {
-  background: url("../_badges/106_normal.png") no-repeat !important;
-}
-.H {
-  background: url("../_badges/107_normal.png") no-repeat !important;
-}
-.I {
-  background: url("../_badges/108_normal.png") no-repeat !important;
-}
-*/

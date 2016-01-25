@@ -6,10 +6,15 @@
 		<link rel="stylesheet" href="_css/styles.css">
 	</head>
 	<body>
-		<div class="ctx" id="ctx">
+		<div class="wrapper">
+			<aside>
+				<button id="new" onclick="newGame();">Novo Jogo</button>
+				<button id="hide" onclick="startGame();">Iniciar Jogo</button>
+				<div id="timer"></div>
+			</aside>
+			<main class="ctx" id="ctx"></main>
+			<footer></footer>
 		</div>
-
-		<script src="_js/custom3.js"></script>
-		<script>newBoard();</script>
+		<script src="_js/custom.js"></script>
 	</body>
 </html>
