@@ -116,9 +116,9 @@ function flipTile(el, att) {
 function successMsg(n) {
     x = document.getElementsByTagName('footer');
     if (x.innerHTML = '') {
-        x[0].innerHTML = '<a href="https://twitter.com/intent/tweet/?text=Memory Javascript FTW em: ' + n + ' segundos!">Parabens! Partilha com os teus amigos no <span>Twitter</span>!!</a>';
+        x[0].innerHTML = '<a href="https://twitter.com/intent/tweet/?text=Memory Javascript FTW em: ' + n + ' segundos!">Memory Javascript FTW em: ' + n + ' segundos! <br> Partilha com os teus amigos no <span>Twitter</span>!!</a>';
     } else {
         x[0].innerHTML = '';
-        x[0].innerHTML = '<a href="https://twitter.com/intent/tweet/?text=Memory Javascript FTW em: ' + n + ' segundos!">Parabens! Partilha com os teus amigos no <span>Twitter</span>!!</a>';
+        x[0].innerHTML = '<a href="https://twitter.com/intent/tweet/?text=Memory Javascript FTW em: ' + n + ' segundos!">Memory Javascript FTW em: ' + n + ' segundos! <br> Partilha com os teus amigos no <span>Twitter</span>!!</a>';
     }
 }
